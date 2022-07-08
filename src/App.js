@@ -1,14 +1,9 @@
 import "./App.scss";
 
 import NavBar from "./components/Navbar/NavBar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-  return (
-    <Router>
-      <NavBar />
-    </Router>
-  );
+  return <NavBar />;
 }
 
 export default App;

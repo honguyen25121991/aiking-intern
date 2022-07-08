@@ -1,3 +1,28 @@
-.test {
-    color: red;
+.logo {
+    width: 200px;
+    max-height: 90px;
+}
+.nav-item {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    position: relative;
+    left: 50%;
+}
+
+.login-btn {
+    border-radius: 30px;
+    font-size: 0.85em;
+    width: 100px;
+    height: 40px;
+    background-color: #f29e33;
+    text-transform: uppercase;
+
+    span {
+        display: flex;
+        color: white;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+    }
 }

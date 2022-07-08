@@ -1,0 +1,48 @@
+.deposit {
+    .deposit__herder {
+        .banner__content {
+            margin-bottom: 40px;
+        }
+    }
+    .deposit__tutorial--hr {
+        position: relative;
+        z-index: -2;
+    }
+    .deposit__content {
+        position: relative;
+        .deposit__tutorial {
+            text-align: center;
+            text-transform: uppercase;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+            width: 300px;
+            position: absolute;
+            top: -30px;
+            left: 40%;
+            h3 {
+                font-size: 1.3em;
+                padding-top: 5px;
+                font-weight: 700;
+            }
+        }
+        .deposit__tutorial--content {
+            margin-top: 50px;
+            p {
+                font-size: 1.3em;
+            }
+            .deposit__tutorial--img {
+                display: flex;
+                justify-content: center;
+                img {
+                    border-radius: 10px;
+                    width: 300px;
+                    margin: 0 20px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        .deposit__reChange--content {
+            width: 400px;
+        }
+    }
+}
