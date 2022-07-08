@@ -1,10 +1,9 @@
 import React from "react";
-import Footer from "../Home/Footer";
-
+import Footer from "../Footer/Footer";
+import "./Blog.scss";
 function Blog() {
   return (
-    <div>
-      Blog
+    <div className="container Blog__content">
       <Footer />
     </div>
   );

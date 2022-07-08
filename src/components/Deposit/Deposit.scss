@@ -19,11 +19,6 @@
             position: absolute;
             top: -30px;
             left: 40%;
-            h3 {
-                font-size: 1.3em;
-                padding-top: 5px;
-                font-weight: 700;
-            }
         }
         .deposit__tutorial--content {
             margin-top: 50px;
@@ -36,13 +31,35 @@
                 img {
                     border-radius: 10px;
                     width: 300px;
-                    margin: 0 20px;
                     margin-bottom: 50px;
+                    margin-top: 50px;
+                    margin-left: 40px;
                 }
             }
         }
         .deposit__reChange--content {
             width: 400px;
         }
+        .border-bottom {
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        .border-bottom::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            background: rgba(0, 0, 0, 0.1);
+            left: 0;
+            width: 15%;
+        }
+        .hr__content {
+            display: none;
+        }
+    }
+    h3 {
+        font-size: 1.3em;
+        padding-top: 5px;
+        font-weight: 700;
     }
 }
