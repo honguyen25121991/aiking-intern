@@ -1,6 +1,6 @@
 import React from "react";
 import { background, button } from "../../assets/images/index";
-import Footer from "../Footer/Footer";
+import FooterCopyRight from "../FooterCopyRight/Footer";
 import "./Home.scss";
 
 function Content() {
@@ -24,7 +24,7 @@ function Content() {
           <i> For Androi</i>
         </div>
       </div>
-      <Footer />
+      <FooterCopyRight />
     </div>
   );
 }

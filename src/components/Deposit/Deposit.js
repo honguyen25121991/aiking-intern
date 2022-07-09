@@ -16,8 +16,8 @@ import {
   cashOut03,
   cashOut04,
 } from "../../assets/images/index";
-import Footer from "../Footer/Footer";
 import { ScrollToTop } from "../../components";
+import FooterCopyRight from "../FooterCopyRight/Footer";
 function Deposit() {
   return (
     <>
@@ -119,7 +119,7 @@ function Deposit() {
               <img src={cashOut04} alt="cashOut04" />
             </div>
           </div>
-          <Footer />
+          <FooterCopyRight />
         </section>
       </div>
 

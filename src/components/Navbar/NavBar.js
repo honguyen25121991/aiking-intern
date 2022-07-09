@@ -12,6 +12,7 @@ import NotFoundPage from "../NotFoundPage/NotFoundPage";
 
 import { logo } from "../../assets/images/index";
 import "./NavBar.scss";
+import SignupPage from "../SignupPage/SignupPage";
 
 const Navigation = () => {
   return (
@@ -63,6 +64,8 @@ const Navigation = () => {
             <Route path="/about" element={<About />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="/login" element={<LoginPage />}></Route>
+            <Route path="/signup" element={<SignupPage />}></Route>
+
             <Route path="*" element={<NotFoundPage />} />
             <Route path="/" element={<Home />}></Route>
           </Routes>

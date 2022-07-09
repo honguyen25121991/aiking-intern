@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Footer/Footer";
+import FooterCopyRight from "../FooterCopyRight/Footer";
 import "./ContactUs.scss";
 function ContactUS() {
   return (
@@ -10,7 +10,7 @@ function ContactUS() {
         <br />
         Email: spshopcoinusa@gmail.com
       </p>
-      <Footer />
+      <FooterCopyRight />
     </div>
   );
 }

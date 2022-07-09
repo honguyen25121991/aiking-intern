@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../Footer/Footer";
 import "./AboutUs.scss";
 import { banner } from "../../assets/images/index";
 import { ScrollToTop } from "../../components";
+import FooterCopyRight from "../FooterCopyRight/Footer";
 
 function AboutUs() {
   return (
@@ -146,8 +146,9 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <FooterCopyRight />
 
-      <Footer />
+      {/* <Footer /> */}
       <ScrollToTop />
     </div>
   );

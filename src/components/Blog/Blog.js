@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../Footer/Footer";
+import FooterCopyRight from "../FooterCopyRight/Footer";
 import "./Blog.scss";
 function Blog() {
   return (
     <div className="container Blog__content">
-      <Footer />
+      <FooterCopyRight />
     </div>
   );
 }

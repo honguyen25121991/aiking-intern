@@ -1,7 +1,7 @@
 import React from "react";
-
+import "./NotFoundPage.scss";
 function NotFoundPage() {
-  return <div>NotFoundPage</div>;
+  return <div className="Header__content">NotFoundPage</div>;
 }
 
 export default NotFoundPage;
