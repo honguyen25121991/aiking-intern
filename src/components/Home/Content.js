@@ -5,7 +5,7 @@ import "./Home.scss";
 
 function Content() {
   return (
-    <div className="container-content">
+    <div className="container-content ">
       <div className="Content__img">
         <img src={background} alt="background-home" />
       </div>

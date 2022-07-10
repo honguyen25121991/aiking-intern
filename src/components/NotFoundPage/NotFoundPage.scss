@@ -1,3 +1,26 @@
 .Header__content {
     margin-top: 100px;
+    .Header__content--left {
+        span {
+            font-size: 7rem;
+            color: #dbdbdb;
+        }
+    }
+    .Header__content--right {
+        margin-left: 9rem;
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 40px 0;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        input {
+            padding: 5px;
+            width: 95%;
+            border: 2px solid #dbdbdb;
+            border-radius: 5px;
+        }
+    }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Formik } from "formik";
-
+import ReCAPTCHA from "react-google-recaptcha";
 import "./ValidateLoginFrom.scss";
 
 const initialValues = {
@@ -121,6 +121,11 @@ const Form = () => {
                 )}
               </div>
 
+              <ReCAPTCHA
+                sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                onChange={null}
+              />
+
               <button
                 type="submit"
                 className={!(dirty && isValid) ? "disabled-btn" : ""}
@@ -129,6 +134,7 @@ const Form = () => {
                 Register
               </button>
             </form>
+
             <div className="p__content--bottom">
               <p>
                 By registering I confirm I have read and agree to Terms of Use.
